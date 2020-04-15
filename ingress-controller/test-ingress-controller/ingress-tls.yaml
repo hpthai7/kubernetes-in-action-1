@@ -5,10 +5,10 @@ metadata:
 spec:
   tls:
   - hosts: 
-    - kubia.example.com
-    secretName: tls-secret
+    - replace.me
+    secretName: tls.name
   rules:
-  - host: kubia.example.com
+  - host: replace.me
     http:
       paths:
       - path: /

@@ -13,7 +13,6 @@ spec:
       labels:
         app: kubia
     spec:
-      serviceAccountName: dev-service-account
       containers:
       - image: luksa/kubia:v1
         name: nodejs
