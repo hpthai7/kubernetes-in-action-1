@@ -30,6 +30,7 @@ curl http://${V1_IP_ADDR}
 # Test service v4
 export V4_IP_ADDR=$(kubectl get service kubia-nodeport -o jsonpath='{.spec.clusterIP}')
 curl http://${V4_IP_ADDR}
+```
 
 ## Test result
 
