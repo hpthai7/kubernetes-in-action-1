@@ -5,6 +5,8 @@
 This Helm chart feature a basic chart that use AppVersion in Chart.yaml to define the docker image tags.
 Further information can be found [here](!https://jfrog.com/blog/helm-charts-best-practices/)
 
+Helm version "v2.15.1". Microk8s version "v1.16.8".
+
 ```bash
 export VER=1.0.0
 export APP_VV=helm-kubia-"${VER}".tgz 
